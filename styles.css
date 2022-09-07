@@ -8,7 +8,7 @@
 
 }
 
-#contenedorBienvenida {}
+/* #contenedorBienvenida {} */
 
 
 /*Estilos Generales*/
@@ -20,18 +20,102 @@
     color: white;
 }
 
+#conocenos {
+    border-radius: 70px;
+    width: 50%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 0.8em;
+    font-size: medium;
+    opacity: 65%;
+    font-weight: 400;
+}
+
+.contenedorTexto {
+    margin: 1.5rem;
+    width: 25rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.75em;
+}
+
+/* #productos {} */
+
+.productSection {
+    background-color: rgb(86, 82, 82);
+    text-align: center;
+    padding: 1.5em;
+    width: auto;
+    color: rgb(255, 253, 253);
+    margin-bottom: 0;
+
+}
+
+.productText {
+    background-color: black;
+    color: rgb(189, 152, 124);
+    padding: 3em;
+    text-align: left;
+    font-weight: 300;
+}
+
+.image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    /* border: red solid 1px; */
+}
+
+.dulceDeLeche {
+    background-image: url(../DULCES-HUMAYA-master/IMAGENES/Productos/Producto1.png);
+    height: 300px;
+
+    /* border: red solid 1px; */
+}
+
+.ddlSinAzucar {
+    background-image: url(../DULCES-HUMAYA-master/IMAGENES/Productos/Producto2.png);
+    height: 300px;
+
+}
+
+.light {
+    font-weight: 100;
+}
+
+.textoDescripcion {
+    color: rgb(181, 179, 179);
+
+}
+
+.botonInfo {
+    color: rgb(189, 152, 124);
+    background-color: transparent;
+    border: rgb(189, 152, 124) solid 2px;
+    padding-top: 0.2em;
+    padding-right: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.1em;
+    font-size: smaller;
+    margin-top: 1.3em;
+
+}
+
+button {
+    margin-left: 20vw;
+}
+
+.size {
+    font-size: xx-large;
+}
 
 
 /*Medias queries*/
-@media screen and (min-width: 480px) and (max-width:940px) {
-    .cardGenerales {
-        color: black;
-    }
-}
+@media screen and (max-width:940px) {}
 
 @media screen and (min-width: 941px) and (max-width:1300px) {
     #fondoBienvenida {
-        height: 100%;
+        height: 21rem;
     }
 
     #contenedorBienvenida {
@@ -41,18 +125,32 @@
 
     }
 
-    .contenedorTexto {
-        margin: 3rem;
-        width: 25rem;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        line-height: 1.5em;
+    .dulceDeLecheTradicional {
+        display: flex;
     }
+
+    .dulceDeLecheSinAzucar {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .dulceDeLeche {
+        width: 50vw;
+    }
+
+    .productText {
+        width: 50vw;
+    }
+
+    .ddlSinAzucar {
+        width: 50vw;
+    }
+
 }
 
 @media screen and (min-width: 1301px) {
     #fondoBienvenida {
-        height: 100%;
+        height: 21rem;
     }
 
     #contenedorBienvenida {
@@ -62,11 +160,26 @@
 
     }
 
-    .contenedorTexto {
-        margin: 3rem;
-        width: 25rem;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        line-height: 1.5em;
+
+    .dulceDeLecheTradicional {
+        display: flex;
     }
+
+    .dulceDeLecheSinAzucar {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .dulceDeLeche {
+        width: 50vw;
+    }
+
+    .productText {
+        width: 50vw;
+    }
+
+    .ddlSinAzucar {
+        width: 50vw;
+    }
+
 }
