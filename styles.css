@@ -69,14 +69,12 @@
 .dulceDeLeche {
     background-image: url(../DULCES-HUMAYA-master/IMAGENES/Productos/Producto1.png);
     height: 300px;
-
     /* border: red solid 1px; */
 }
 
 .ddlSinAzucar {
     background-image: url(../DULCES-HUMAYA-master/IMAGENES/Productos/Producto2.png);
     height: 300px;
-
 }
 
 .light {
@@ -94,11 +92,10 @@
     border: rgb(189, 152, 124) solid 2px;
     padding-top: 0.2em;
     padding-right: 1em;
-    padding-right: 1em;
+    padding-left: 1em;
     padding-bottom: 0.1em;
     font-size: smaller;
     margin-top: 1.3em;
-
 }
 
 button {
